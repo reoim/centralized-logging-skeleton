@@ -39,15 +39,18 @@
         "collect_list": [
           {
             "file_path": "/opt/aws/amazon-cloudwatch-agent/logs/amazon-cloudwatch-agent.log",
-            "log_group_name": "CwAgentLog",
-            "log_stream_name": "amazon-cloudwatch-agent.log",
-            "timezone": "UTC"
+            "log_group_name": "WebServerLogGroup",
+            "log_stream_name": "amazon_cloudwatch_agent_log"
           },
           {
             "file_path":"/var/log/httpd/access_log",
             "log_group_name":"WebServerLogGroup",
-            "log_stream_name": "apache_access_log",
-            "timezone": "UTC"
+            "log_stream_name": "apache_access_log"
+          },
+          {
+            "file_path":"/var/log/httpd/error_log",
+            "log_group_name":"WebServerLogGroup",
+            "log_stream_name": "apache_error_log"
           }
         ]
       }
