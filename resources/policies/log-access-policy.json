@@ -4,9 +4,9 @@
     {
       "Effect" : "Allow",
       "Principal" : {
-        "AWS" : ["Target Account ID"]
+        "AWS" : ["{Target Account ID}"]
       },
       "Action" : "logs:PutSubscriptionFilter",
-      "Resource" : "Log Destination ARN"
+      "Resource" : "arn:aws:logs:{region}:{accountid}:destination:{destination name}"
     }
   ]
