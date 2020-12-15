@@ -21,6 +21,8 @@
     "typescript": "~3.9.7"
   },
   "dependencies": {
+    "@aws-cdk/aws-ecs": "^1.78.0",
+    "@aws-cdk/aws-ecs-patterns": "^1.78.0",
     "@aws-cdk/aws-apigateway": "^1.78.0",
     "@aws-cdk/aws-cloudtrail": "^1.78.0",
     "@aws-cdk/aws-cloudwatch-actions": "^1.78.0",
