@@ -6,6 +6,7 @@
     "@aws-cdk/core:stackRelativeExports": "true",
     "@aws-cdk/aws-ecr-assets:dockerIgnoreSupport": true,
     "@aws-cdk/aws-secretsmanager:parseOwnedSecretName": true,
-    "destination":"arn:aws:logs:{region}:{accountid}:destination:{log-destination-name}"
+    "destination": "arn:aws:logs:{region}:{accountid}:destination:{log-destination-name}",
+    "email": "example@email.com"
   }
 }
